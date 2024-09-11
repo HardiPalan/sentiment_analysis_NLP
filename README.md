@@ -23,23 +23,22 @@ The dataset used for this project consists of text data, often sourced from movi
 ## Text Preprocessing
 Before building the sentiment classification models, the following preprocessing steps are applied:
 
--**Lowercasing**: Converting all text to lowercase.
--**Tokenization**: Splitting text into individual words or tokens.
--**Vectorization**: Converting text into numerical format using methods like TF-IDF or Count Vectorizer.
+- **Lowercasing**: Converting all text to lowercase.
+- **Tokenization**: Splitting text into individual words or tokens.
+- **Vectorization**: Converting text into numerical format using methods like TF-IDF or Count Vectorizer.
 
 ## Modeling
 Several machine learning models were implemented for sentiment classification:
 
--**Logistic Regression**: A simple yet effective classification model.
--**Support Vector Machine (SVM)**: A robust model for high-dimensional data.
--**Random Forest Classifier**: An ensemble method that enhances accuracy by using multiple decision trees.
+1. **Logistic Regression**: A simple yet effective classification model.
+2. **Support Vector Machine (SVM)**: A robust model for high-dimensional data.
+3. **Random Forest Classifier**: An ensemble method that enhances accuracy by using multiple decision trees.
 The models are evaluated using common metrics such as accuracy, precision, recall, and F1-score.
 
 ## Results
 The final model performances are as follows:
 
-Accuracy: 85%
-Precision: 82%
-Recall: 83%
-F1-score: 83%
+- **Accuracy**: 85%
+- **Precision**: 82%
+- **F1-score**: 83%
 The Support Vector Machine (SVM) model provided the best performance with an accuracy of 85%.
